@@ -11,7 +11,7 @@ public:
         // Create a map to count the frequency of each (nums[i] - i) value.
         // Why? Because if two indices have the same (nums[i] - i),
         // they form a "good pair"—think of it as two dancers perfectly in sync!
-        unordered_map<int, int> freq_of_diff_of_nums_at_i_and_i;
+        unordered_map<int, long long> freq_of_diff_of_nums_at_i_and_i;
         
         // Iterate over the array and tally up the frequencies.
         // Each (nums[i] - i) is like a signature dance move.
